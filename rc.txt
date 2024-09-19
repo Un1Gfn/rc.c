@@ -1,0 +1,8 @@
+#!/dev/null
+
+h() {
+cat <<"EOF"
+	./x ff_uname
+EOF
+}
+
