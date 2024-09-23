@@ -2,9 +2,7 @@
 
 source tmp/glue.txt
 
-h() {
-cat <<"EOF"
-	./x ff_uname
-EOF
-}
+echo
+declare -F | grep mmm_ | sed $'s/^/\t/g'
+echo
 

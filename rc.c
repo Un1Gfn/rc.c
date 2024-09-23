@@ -24,7 +24,7 @@ int mmm_uname(){
 	return 0;
 }
 
-int mmm_sqrt(){
+int mmm_sqrt_NUMBER(){
 	if(!argv[2]){
 		puts("err no arg2");
 		return 1;
