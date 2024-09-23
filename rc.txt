@@ -1,5 +1,7 @@
 #!/dev/null
 
+source tmp/glue.txt
+
 h() {
 cat <<"EOF"
 	./x ff_uname
