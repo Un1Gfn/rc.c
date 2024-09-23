@@ -2,6 +2,10 @@
 
 source tmp/glue.txt
 
+mmm_uname1(){
+	uname -a
+}
+
 echo
 declare -F | grep mmm_ | sed $'s/^/\t/g'
 echo

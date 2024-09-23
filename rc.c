@@ -8,6 +8,11 @@
 extern const int argc;
 extern const char *const *const argv;
 
+static int mmm_static(){
+	puts("this function show be dropped");
+	return 1;
+}
+
 int mmm_uname(){
 	struct utsname u={};
 	const int r=uname(&u);
